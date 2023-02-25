@@ -32,9 +32,14 @@ with open("books/frankenstein.txt") as f:
         item_list += f"- {item}\n"
 
     report = f"""\
-    This book has {count} words. Can you believe it?!!!
+This book has {count} words. Can you believe it?!!!
 
-    {item_list}
+We've counted every character in this book, even the spaces (there were 74,144).
+
+To keep things simple, we're going to list from least to most every alphanumeric character.
+{item_list}
+
+There you have it. 
 
     """
 
